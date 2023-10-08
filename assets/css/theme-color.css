@@ -1,4 +1,4 @@
-/* Theme Color Default  #6d3795 = rgba(109, 55, 149, */
+/* Theme Color Default  #013398 = #01339889/
 
 /* TEXT COLOR */
 .ulockd-title-icon,
@@ -9,7 +9,7 @@
 .ulockd-tcompliment span,
 .twitter.style2 ul li a,
 .text-thm {
-  color: #6d3795 !important;
+  color: #013398 !important;
 }
 
 /* TEXT HOVER COLOR */
@@ -24,12 +24,12 @@
 .ulockd-media-box .media:hover .media-heading,
 .ulocked-pricing-details ul li:hover a,
 .ulockd-shop-item:hover h3 {
-	color: #6d3795;
+	color: #013398;
 }
 nav.navbar.bootsnav.light-red ul.nav > li > a.active,
 nav.navbar.bootsnav.light-red ul.nav > li > a:hover,
 nav.navbar.bootsnav.light-red li.dropdown ul.dropdown-menu > li > a:hover {
-	color: #6d3795;
+	color: #013398;
 }
 
 /* BACKGROUND COLOR */
@@ -64,7 +64,7 @@ nav.navbar.bootsnav.ulockd-menu-style2 #navbar-menu,
 .progress-levels .progress-box .bar .bar-fill,
 .team_four .social li a,
 .bgc-thm {
-	background-color: #6d3795 !important;
+	background-color: #013398 !important;
 }
 .ulockd-contact-place li:hover {
     box-shadow: 1px 2px 2px 2px #08725a;
@@ -78,7 +78,7 @@ nav.navbar.bootsnav.ulockd-menu-style2 #navbar-menu,
 .ui-timepicker-list li:hover, 
 li.ui-timepicker-selected
 .ulockd-tag-list-details li:hover a {
-	background-color: #6d3795;
+	background-color: #013398;
 
 }
 
@@ -94,7 +94,7 @@ li.ui-timepicker-selected
 .ulockd-footer-font-icon a:hover,
 .fs_slider.owl-theme .owl-dots .owl-dot.active span,
 .fs_slider.owl-theme .owl-dots .owl-dot:hover span {
-	background-color: #6d3795 !important;
+	background-color: #013398 !important;
 }
 .ulockd-main-slider .owl-next:hover,
 .ulockd-main-slider .owl-prev:hover,
@@ -103,13 +103,13 @@ li.ui-timepicker-selected
 .team-slider .owl-dots .owl-dot.active span,
 .team-slider .owl-dots .owl-dot:hover span,
 .team-slider .owl-dots .owl-dot:focus span {
-	background-color: #6d3795;
+	background-color: #013398;
 }
 .masonry-filter li.active,
 .masonry-filter li:active,
 .masonry-filter li:hover,
 .masonry-filter li:focus {
-	background-color: #6d3795;
+	background-color: #013398;
 }
 
 /* BACKGROUND COLOR TRANSPARENT */
@@ -117,10 +117,10 @@ li.ui-timepicker-selected
 .ulockd-tm-overlay,
 .bgc-thm-trnsp,
 .about-box:before {
-	background-color: rgba(109, 55, 149, 0.95);
+	background-color: #01339889;
 }
 .ulockd-frst-divider::before {
-	background-color: rgba(109, 55, 149, 0.9);
+	background-color: #01339889;
 }
 nav.navbar.bootsnav.menu-style1 li.dropdown ul.dropdown-menu,
 nav.navbar.bootsnav.sp-nav li.dropdown ul.dropdown-menu,
@@ -130,40 +130,40 @@ nav.navbar.bootsnav.ulockd-menu-style2 li.dropdown ul.dropdown-menu,
 .ulockd-icd-layer::before,
 .ulockd-coming-soon::before,
 .ulockd-uconctruction::before {
-	background-color: rgba(109, 55, 149, 0.8);
+	background-color: #01339889;
 }
 .ulockd-frst-divider.style1::before,
 .flickr-widget li .thumb .overlay,
 .ulockd-team-two-mdetails.one,
 .blog-overlay {
-	background-color: rgba(109, 55, 149, 0.7);
+	background-color: #01339889;
 }
 .fancybox-gallery-slider .gallery-overlay,
 .ulockd-srvcs-overlay {
-	background-color: rgba(109, 55, 149, 0.6);
+	background-color: #01339889;
 }
 
 /* BUTTON TEMPALTE COLOR */
 .btn-thm {
-  background-color: #6d3795;
-  border-color: #6d3795;
+  background-color: #013398;
+  border-color: #013398;
 }
 .btn-dark:hover,
 .btn-dark:active,
 .btn-dark:focus {
-  background-color: #6d3795;
+  background-color: #013398;
 }
 .btn-white:hover,
 .btn-white:active,
 .btn-white:focus {
-  background-color: #6d3795 !important;
-  border-color: #6d3795 !important;
+  background-color: #013398 !important;
+  border-color: #013398 !important;
 }
 .btn-gray:hover,
 .btn-gray:active,
 .btn-gray:focus {
-  background-color: #6d3795 !important;
-  border-color: #6d3795 !important;
+  background-color: #013398 !important;
+  border-color: #013398 !important;
 }
 
 /* BORDER TEMPALTE COLOR */
@@ -171,30 +171,30 @@ nav.navbar.bootsnav.ulockd-menu-style2 li.dropdown ul.dropdown-menu,
 .ulockd-testimonial-carousel .item .media,
 .pricing-table,
 .ulockd-srvc-column {
-    border: 1px solid #6d3795;
+    border: 1px solid #013398;
 }
 .ulockd-contact-form .ulockd-form-fg {
-	border-left: 2px solid #6d3795;
+	border-left: 2px solid #013398;
 }
 .header-nav .main-header-nav.navbar-scrolltofixed,
 .partner,
 .ulockd-bttc {
-    border-top: 1px solid #6d3795;
+    border-top: 1px solid #013398;
 }
 .ulocked-pricing-details ul li:first-child {
-	border-top: 1px dashed #6d3795;
+	border-top: 1px dashed #013398;
 }
 .ulockd-bb-dashed {
-	border-bottom: 1px dashed #6d3795;
+	border-bottom: 1px dashed #013398;
 }
 .ulocked-pricing-details ul li {
-    border-bottom: 1px dashed #6d3795;
+    border-bottom: 1px dashed #013398;
 }
 .ulockd-contact-info .ulockd-icon,
 .ulockd-ohour-info .ulockd-icon {
-    border: 2px dashed #6d3795;
+    border: 2px dashed #013398;
 }
 .service-widget a.active {
-	border-color:  #6d3795;
+	border-color:  #013398;
 }
 /* Hover Border COlor */

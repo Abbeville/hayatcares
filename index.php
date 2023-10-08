@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Comfort Home - Old, Health & Senior Care HTML Template" />
-    <meta name="keywords"
-        content="assisted living, activities, care services, dementia care, elderly care, doctor, health, health care, hospital, medical template, nursing home, old care, retail, senior, service etc">
+    <meta name="keywords" content="assisted living, activities, care services, dementia care, elderly care, doctor, health, health care, hospital, medical template, nursing home, old care, retail, senior, service etc">
     <meta name="author" content="unlockdesign">
     <!-- css file -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
@@ -72,12 +71,11 @@
                         <div class="container">
                             <!-- Start Header Navigation -->
                             <div class="navbar-header ulockd-ltwo">
-                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse"
-                                    data-bs-target="#navbar-menu"> <i class="fas fa-bars"></i> </button>
+                                <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbar-menu"> <i class="fas fa-bars"></i> </button>
                                 <a class="navbar-brand ulockd-main-logo2" href="#brand">
                                     <!-- <img src="assets/images/header-logo2.png" class="logo" alt=""> -->
                                     <h2 style="color: #FFFFFF;">HayatCares Services</h2>
-                                    </a>
+                                </a>
                             </div>
                             <!-- End Header Navigation -->
 
@@ -85,8 +83,9 @@
                             <div class="collapse navbar-collapse" id="navbar-menu">
                                 <ul class="nav navbar-nav navbar-right" data-in="fadeIn">
                                     <li class="nav-item dropdown"> <a href="#" class="nav-link">Home</a></li>
-                                    <li class="nav-item dropdown"><a href="ulockd-job-apply-form.html" class="nav-link">About Us</a></li>
-                                    <li class="nav-item dropdown"><a href="ulockd-job-apply-form.html" class="nav-link">Job Apply</a></li>
+                                    <li class="nav-item dropdown"><a href="#about_us" class="nav-link">About Us</a></li>
+                                    <li class="nav-item dropdown"><a href="#services" class="nav-link">Our Services</a></li>
+                                    <li class="nav-item dropdown"><a href="#job_application_form" class="nav-link">Job Apply</a></li>
                                     <li class="nav-item dropdown"> <a href="#" class="nav-link">Contact Us</a></li>
                                     <!-- <li class="nav-item dropdown"> <a href="#" class="nav-link dropdown-toggle"
                                             data-toggle="dropdown">Service</a>
@@ -111,8 +110,7 @@
         <div id="page" class="stylehome1">
             <div class="mobile-menu">
                 <div class="header stylehome1">
-                    <div class="main_logo_home2 dn"><img class="nav_logo_img dn-md img-fluid mt20"
-                            src="assets/images/header-logo.png" alt="header-logo.png"></div>
+                    <div class="main_logo_home2 dn"><img class="nav_logo_img dn-md img-fluid mt20" src="assets/images/header-logo.png" alt="header-logo.png"></div>
                     <ul class="menu_bar_home2">
                         <li class="list-inline-item"></li>
                         <li class="list-inline-item"><a href="#menu"><span></span></a></li>
@@ -122,10 +120,11 @@
             <!-- /.mobile-menu -->
             <nav id="menu" class="stylehome1">
                 <ul>
-                    <li><a href="page-about.html">Home</a></li>
-                    <li><a href="page-about.html">About Us</a></li>
-                    <li><a href="page-about.html">Job Apply</a></li>
-                    <li><a href="page-about.html">Contact Us</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about_us">About Us</a></li>
+                    <li><a href="#services">Our Services</a></li>
+                    <li><a href="#job_application_form">Job Apply</a></li>
+                    <li><a href="#footer">Contact Us</a></li>
                 </ul>
             </nav>
         </div>
@@ -136,19 +135,17 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="main-banner-wrapper">
-                            <div class="banner-style-one owl-theme owl-carousel" data-autoplay="true" data-items="1"
-                                data-active="true">
-                                <div class="slide slide-one"
-                                    style="background-image: url(assets/images/home/h1.jpg);height: 880px;">
+                            <div class="banner-style-one owl-theme owl-carousel" data-autoplay="true" data-items="1" data-active="true">
+                                <div class="slide slide-one" style="background-image: url(assets/images/home/h1.jpg);height: 880px;">
                                     <div class="container">
                                         <div class="row home-content">
                                             <div class="col-lg-12 text-end">
                                                 <h2 class="banner_top_title">Welcome To Our</h2>
                                                 <h3 class="banner-title">Healthcare Recruitment Agency</h3>
                                                 <p>Hayat Care Services Ltd growing reputation has been built by the professionalism and work ethic of our nurses and
-                                                carers. If you’re a doctor, nurse or a carers looking for full-time work or have only mixed availability, then we can
-                                                help. Our dedicated team will help you through our registration process quickly, working closely with you at all stages
-                                                through your journey with us.</p>
+                                                    carers. If you’re a doctor, nurse or a carers looking for full-time work or have only mixed availability, then we can
+                                                    help. Our dedicated team will help you through our registration process quickly, working closely with you at all stages
+                                                    through your journey with us.</p>
                                                 <div class="btn"><a href="#" class="banner-btn">Get A Quote</a></div>
                                             </div>
                                         </div>
@@ -187,50 +184,49 @@
                                     </div>
                                 </div>
                             </div> -->
-                            <!-- <div class="carousel-btn-block banner-carousel-btn"> <span class="carousel-btn left-btn"><i
+                                <!-- <div class="carousel-btn-block banner-carousel-btn"> <span class="carousel-btn left-btn"><i
                                         class="flaticon-left-arrow left"></i></span> <span
                                     class="carousel-btn right-btn"><i class="flaticon-right-arrow right"></i></span>
                             </div> -->
-                            <!-- /.carousel-btn-block banner-carousel-btn -->
+                                <!-- /.carousel-btn-block banner-carousel-btn -->
+                            </div>
+                            <!-- /.main-banner-wrapper -->
                         </div>
-                        <!-- /.main-banner-wrapper -->
                     </div>
                 </div>
-            </div>
         </section>
 
         <!-- Our About -->
-        <section class="ulockd-about-two pb70">
+        <section class="ulockd-about-two pb70" id="about_us">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6">
                         <div class="ulockd-about2-details">
                             <h2>About HayatCares <span class="text-thm"></span></h2>
                             <p class="ulockd-about-para"> Hayat Care Services Ltd is a healthcare recruitment agency working across the United Kingdom, specialising in providing
-                            temporary, contract and permanent staff.</p>
+                                temporary, contract and permanent staff.</p>
                             <p class="ulockd-about-para-two"> We work closely with the Government and Private Clients and are able to respond at short notice with carers and allied
-                            staff of all grades and qualifications as well as supporting case managers, corporate companies across the United
-                            Kingdom and abroad. At Hayat Care Services Ltd we believe that relationships are built on knowledge and trust.</p>
+                                staff of all grades and qualifications as well as supporting case managers, corporate companies across the United
+                                Kingdom and abroad. At Hayat Care Services Ltd we believe that relationships are built on knowledge and trust.</p>
                             <p class="ulockd-about-para-two">We use our knowledge to recruit only the best and most suitable candidates, offering a wide range of doctor jobs and
-                            nursing and carers jobs to them. Our clients trust us to place the right staff in the right roles, with many requests
-                            coming at short notice.</p>
+                                nursing and carers jobs to them. Our clients trust us to place the right staff in the right roles, with many requests
+                                coming at short notice.</p>
                             <p class="ulockd-about-para-two">Hayat Care Services Ltd growing reputation has been built by the professionalism and work ethic of our nurses and
-                            carers. If you’re a doctor, nurse or a carers looking for full-time work or have only mixed availability, then we can
-                            help. Our dedicated team will help you through our registration process quickly, working closely with you at all stages
-                            through your journey with us.</p>
+                                carers. If you’re a doctor, nurse or a carers looking for full-time work or have only mixed availability, then we can
+                                help. Our dedicated team will help you through our registration process quickly, working closely with you at all stages
+                                through your journey with us.</p>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="ulockd-about-video">
                             <div class="ulockd-avdo-thumb">
-                                <iframe class="ulockd-frame2" src="assets/http://www.youtube.com/embed/6t79c4Zzngw?autoplay=0"
-                                    allowfullscreen=""></iframe>
+                                <iframe class="ulockd-frame2" src="assets/http://www.youtube.com/embed/6t79c4Zzngw?autoplay=0" allowfullscreen=""></iframe>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="row mt60">
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-4">
                         <div class="ulockd-srvc-column-two text-center">
                             <div class="ulockd-srvc-details-two">
                                 <div class="ulockd-srv-icon-two"><span class="flaticon-nurse"></span></div>
@@ -238,23 +234,23 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <!-- <div class="col-sm-6 col-xl-3">
                         <div class="ulockd-srvc-column-two text-center">
                             <div class="ulockd-srvc-details-two">
                                 <div class="ulockd-srv-icon-two"><span class="flaticon-office-block"></span></div>
-                                <h3>Housekeeping Service</h3>
+                                <h3>Supply of Health Care Professionals</h3>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-sm-6 col-xl-3">
+                    </div> -->
+                    <div class="col-sm-6 col-xl-4">
                         <div class="ulockd-srvc-column-two text-center">
                             <div class="ulockd-srvc-details-two">
                                 <div class="ulockd-srv-icon-two"><span class="flaticon-medical-4"></span></div>
-                                <h3>Health Care</h3>
+                                <h3>Supply of Health Care Professionals</h3>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-6 col-xl-3">
+                    <div class="col-sm-6 col-xl-4">
                         <div class="ulockd-srvc-column-two text-center">
                             <div class="ulockd-srvc-details-two">
                                 <div class="ulockd-srv-icon-two"><span class="flaticon-exercise"></span></div>
@@ -267,7 +263,7 @@
         </section>
 
         <!-- Our Feature Service -->
-        <section class="ulockd-fservice pb70">
+        <section class="ulockd-fservice pb70" id="services">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3 text-center">
@@ -283,10 +279,8 @@
                     <div class="col-lg-9">
                         <div class="row ulockd-fservice-box style2">
                             <div class="col-md-6 col-lg-5 col-xl-4">
-                                <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/1.jpg"
-                                        alt="1.jpg">
-                                    <div class="db-overlayer"><span title="Feature Service Icon"
-                                            class="flaticon-exercise"></span></div>
+                                <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/1.jpg" alt="1.jpg">
+                                    <div class="db-overlayer"><span title="Feature Service Icon" class="flaticon-exercise"></span></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-7 col-xl-8">
@@ -294,17 +288,15 @@
                                     <h3>Fitness Programs</h3>
                                     <p>In case you're similar to the vast majority, you invest an abundant excess energy
                                         taking a seat, which has been appeared to have negative wellbeing results.</p>
-                                    <a href="page-feature-service-details.html" type="submit" class="btn btn-thm">Read
+                                    <a href="#" type="submit" class="btn btn-thm">Read
                                         More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="row ulockd-fservice-box style2">
                             <div class="col-md-6 col-lg-5 col-xl-4">
-                                <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/2.jpg"
-                                        alt="2.jpg">
-                                    <div class="db-overlayer"><span title="Feature Service Icon"
-                                            class="flaticon-nurse-1"></span></div>
+                                <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/2.jpg" alt="2.jpg">
+                                    <div class="db-overlayer"><span title="Feature Service Icon" class="flaticon-nurse-1"></span></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-7 col-xl-8">
@@ -313,17 +305,15 @@
                                     <p>As a basic part of nursing practice, clinical thinking is utilized to absorb
                                         data, investigate information, and settle on choices with respect to patient
                                         care.</p>
-                                    <a href="page-feature-service-details.html" type="submit" class="btn btn-thm">Read
+                                    <a href="#" type="submit" class="btn btn-thm">Read
                                         More</a>
                                 </div>
                             </div>
                         </div>
                         <div class="row ulockd-fservice-box style2">
                             <div class="col-md-6 col-lg-5 col-xl-4">
-                                <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/3.jpg"
-                                        alt="3.jpg">
-                                    <div class="db-overlayer"><span title="Feature Service Icon"
-                                            class="flaticon-laundry"></span></div>
+                                <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/3.jpg" alt="3.jpg">
+                                    <div class="db-overlayer"><span title="Feature Service Icon" class="flaticon-laundry"></span></div>
                                 </div>
                             </div>
                             <div class="col-md-6 col-lg-7 col-xl-8">
@@ -331,12 +321,12 @@
                                     <h3>Laundry Facilities</h3>
                                     <p>Business, institutional and modern clothing offices clean extensive amounts of
                                         textures in an extensive variety of assortments and employments.</p>
-                                    <a href="page-feature-service-details.html" type="submit" class="btn btn-thm">Read
+                                    <a href="#" type="submit" class="btn btn-thm">Read
                                         More</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="row ulockd-fservice-box style2">
+                        <!-- <div class="row ulockd-fservice-box style2">
                             <div class="col-md-6 col-lg-5 col-xl-4">
                                 <div class="db-thumb"> <img class="img-fluid img-whp" src="assets/images/fservice/4.jpg"
                                         alt="4.jpg">
@@ -350,32 +340,31 @@
                                     <p>The Institute Library is open get to and current material is promptly accessible.
                                         The advance times of books fluctuate as per their interest for instructing and
                                         research.</p>
-                                    <a href="page-feature-service-details.html" type="submit" class="btn btn-thm">Read
+                                    <a href="#" type="submit" class="btn btn-thm">Read
                                         More</a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-lg-3">
                         <div class="ulockd-ffact-two text-center">
                             <span class="ulockd-icon-let flaticon-staff-symbol text-thm"></span>
                             <p>Our Staff</p>
-                            <div class="timer text-thm">145</div>
+                            <div class="timer text-thm">11</div>
                         </div>
                         <div class="ulockd-ffact-two text-center">
                             <span class="ulockd-icon-let flaticon-trophy-for-sports text-thm"></span>
                             <p>Award</p>
-                            <div class="timer text-thm">152</div>
+                            <div class="timer text-thm">6</div>
                         </div>
-                        <div class="ulockd-ffact-two text-center">
+                        <!-- <div class="ulockd-ffact-two text-center">
                             <span class="ulockd-icon-let flaticon-medal text-thm"></span>
                             <p>Cup Coffee</p>
                             <div class="timer text-thm">780</div>
-                        </div>
-                        <div class="ulockd-ffact-two ulockd-nobb text-center"> <span
-                                class="ulockd-icon-let flaticon-multiple-users-silhouette text-thm"></span>
+                        </div> -->
+                        <div class="ulockd-ffact-two ulockd-nobb text-center"> <span class="ulockd-icon-let flaticon-multiple-users-silhouette text-thm"></span>
                             <p>Happy People</p>
-                            <div class="timer text-thm">18560</div>
+                            <div class="timer text-thm">1860</div>
                         </div>
                     </div>
                 </div>
@@ -559,7 +548,7 @@
         </section> -->
 
         <!-- Our Booking Form -->
-        <section class="ulockd-booking bg-img3 parallax" data-stellar-background-ratio="0.3">
+        <section class="ulockd-booking bg-img3 parallax" data-stellar-background-ratio="0.3" id="job_application_form">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3">
@@ -567,47 +556,43 @@
                             <h3><span class="flaticon-checkbox-pen-outline text-thm"></span> Apply For Job</h3>
                             <br>
                             <!-- Booking Form Sart-->
-                            <form id="booking_form" class="ulockd-bf-area" name="booking_form" method="post">
+                            <form id="booking_form" class="ulockd-bf-area" name="booking_form" method="POST" action="process_form.php">
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <div class="mb-4">
-                                            <input type="text" id="booking-name" name="booking-name" required=""
-                                                class="form-control" placeholder="Name">
+                                            <input type="text" id="booking_name" name="booking_name" required="" class="form-control" placeholder="Name">
                                         </div>
                                     </div>
                                     <div class="col-sm-12">
                                         <div class="mb-4">
-                                            <input type="text" id="booking-email" name="booking-email"
-                                                class="form-control" required="" placeholder="Email">
+                                            <input type="text" id="booking_email" name="booking_email" class="form-control" required="" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="col-sm-6">
                                         <div class="mb-4">
-                                            <input type="text" id="booking-phone" name="booking-phone"
-                                                class="form-control" required="" placeholder="Phone">
+                                            <input type="text" id="booking_phone" name="booking_phone" class="form-control" required="" placeholder="Phone">
                                         </div>
                                     </div>
-                                    <div class="col-sm-6">
+                                    <!-- <div class="col-sm-6">
                                         <div class="mb-4">
                                             <input type="text" id="booking-date" name="booking-date"
                                                 class="form-control datepicker" required="" placeholder="Schedule">
                                         </div>
-                                    </div>
-                                    <div class="col-sm-12">
+                                    </div> -->
+                                    <div class="col-sm-6">
                                         <div class="mb-4">
                                             <div class="ulockd-select-style">
-                                                <select id="depertment_post" class="form-control"
-                                                    name="depertment_post">
+                                                <select id="depertment_post" class="form-control" name="depertment_post">
                                                     <option value="select-option">Select An Option</option>
-                                                    <option value="discuss">Dementia Care</option>
-                                                    <option value="discuss">Health Insurance Coverage</option>
-                                                    <option value="dental">Long Term Care</option>
-                                                    <option value="neurology">Nutrition Services</option>
-                                                    <option value="discuss">Nursing Supplies</option>
-                                                    <option value="discuss">Primary Health</option>
-                                                    <option value="cardiology">Short Term Care</option>
-                                                    <option value="discuss">Tobacco Cessation</option>
-                                                    <option value="discuss">Other Discuss</option>
+                                                    <option value="Dementia Care">Dementia Care</option>
+                                                    <option value="Health Insurance Coverage">Health Insurance Coverage</option>
+                                                    <option value="Long Term Care">Long Term Care</option>
+                                                    <option value="Nutrition Services">Nutrition Services</option>
+                                                    <option value="Nursing Supplies">Nursing Supplies</option>
+                                                    <option value="Primary Health">Primary Health</option>
+                                                    <option value="Short Term Care">Short Term Care</option>
+                                                    <option value="Tobacco Cessation">Tobacco Cessation</option>
+                                                    <option value="Other Discuss">Other Discuss</option>
                                                 </select>
                                             </div>
                                         </div>
@@ -615,8 +600,7 @@
                                     <div class="col-sm-12">
                                         <div class="d-grid mb-4">
                                             <input name="form-botcheck" class="form-control" type="hidden" value="">
-                                            <button type="submit" class="btn btn-thm btn-block"
-                                                data-loading-text="Please wait...">Apply Now</button>
+                                            <button type="submit" class="btn btn-thm btn-block" data-loading-text="Please wait...">Apply Now</button>
                                         </div>
                                     </div>
                                 </div>
@@ -628,7 +612,7 @@
         </section>
 
         <!-- Our Team -->
-        <section class="ulockd-team-two pb70">
+        <!-- <section class="ulockd-team-two pb70">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 offset-lg-3 text-center">
@@ -670,7 +654,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
 
         <!-- Our Testimonial -->
         <!-- <section class="ulockd-testimonial">
@@ -933,11 +917,12 @@
         </section> -->
 
         <!-- Our Footer -->
-        <section class="ulockd-footer">
+        <section class="ulockd-footer" id="footer">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-lg-4">
-                        <div class="footer-fst-col"> <h2 style="color: #FFFFFF;">HayatCares Services</h2>
+                        <div class="footer-fst-col">
+                            <h2 style="color: #FFFFFF;">HayatCares Services</h2>
                             <p class="ulockd-ftr-text">Regardless of whether you need to stay in your own house, are
                                 searching for help with a more established relative, looking for exhortation on paying
                                 for care, we can help you.</p>
@@ -955,11 +940,11 @@
                         <div class="footer-qlink">
                             <h3 class="text-uppercase">NAVIGATI<span class="text-thm">ON</span></h3>
                             <ul class="list-unstyled">
-                                <li><a href="#">About Us</a></li>
                                 <li><a href="#">Home</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Team Details</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="#about_us">About Us</a></li>
+                                <li><a href="#services">Our Services</a></li>
+                                <li><a href="#job_application_form">Job Apply</a></li>
+                                <li><a href="#footer">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -967,9 +952,8 @@
                         <div class="footer-contact">
                             <h3 class="text-uppercase">CONTACT <span class="text-thm">US</span></h3>
                             <p>Request address.</p>
-                            <div class="ulockd-ftr-phone"><span>Phone </span>: <a href="#"> 99-55-66-88-526</a></div>
-                            <div class="ulockd-ftr-fax"><span>Fax </span>: <a href="#"> 55-44-77-62</a></div>
-                            <div class="ulockd-ftr-mail"><span>Email </span>: <a href="#"> contact@hayatcareservices.co.uk</a>
+                            <div class="ulockd-ftr-phone"><span>Phone </span>: <a href="#"> 447445657822</a></div>
+                            <div class="ulockd-ftr-mail"><span>Email </span>: <a href="#"> enquiry@hayatcareservices.co.uk</a>
                             </div>
                             <div class="ulockd-ftr-mail"><span>Website </span>: <a href="#"> https://hayatcareservices.co.uk/</a>
                             </div>
@@ -1005,8 +989,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Copyright© HayatCares Services. <a class="color-white" href="https://hayatcareservices.co.uk"
-                                target="_blank">HayatCares</a> All right reserved.</p>
+                        <p>Copyright© HayatCares Services. <a class="color-white" href="https://hayatcareservices.co.uk" target="_blank">HayatCares</a> All right reserved.</p>
                         <ul class="ulockd-footer-font-icon mt15">
                             <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fas fa-rss"></i></a></li>
