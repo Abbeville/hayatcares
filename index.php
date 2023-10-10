@@ -8,9 +8,8 @@ session_start();
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Comfort Home - Old, Health & Senior Care HTML Template" />
+    <meta name="description" content="Hayatcares - Old, Health & Senior Care" />
     <meta name="keywords" content="assisted living, activities, care services, dementia care, elderly care, doctor, health, health care, hospital, medical template, nursing home, old care, retail, senior, service etc">
-    <meta name="author" content="unlockdesign">
     <!-- css file -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/all-plugins.css">
