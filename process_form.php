@@ -1,6 +1,6 @@
 <?php
+session_start();
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    echo "It got here";
     // Sanitize and validate inputs
     $name = filter_var($_POST["booking_name"], FILTER_SANITIZE_SPECIAL_CHARS);
     $email = filter_var($_POST["booking_email"], FILTER_SANITIZE_EMAIL);
@@ -9,15 +9,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $department = filter_var($_POST["depertment_post"], FILTER_SANITIZE_SPECIAL_CHARS);
 
     // Validate inputs
-    if (empty($name) || empty($email) || empty($phone) || $department == "select-option") {
-        echo "Please fill in all required fields.";
-        exit;
+    if (empty($name) || empty($email) || empty($phone) || empty($department)) {
+        $message = "Please fill in all required fields.";
+        $_SESSION['notification'] = $message;
+        header("Location: index.php");
     }
 
     // Validate email format
     if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Invalid email format.";
-        exit;
+        $message = "Invalid email format.";
+        $_SESSION['notification'] = $message;
+        header("Location: index.php");
     }
 
     // Send the email
@@ -35,6 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     header("Location: index.php");
 } else {
-    echo "Invalid request.";
+    $_SESSION['notification'] = "Invalid request.";
+    header("Location: index.php");
 }
 

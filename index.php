@@ -1,3 +1,6 @@
+<?php
+session_start();
+?>
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
 
@@ -25,11 +28,11 @@
 
 <body>
     <div class="wrapper">
-        <div id="preloader" class="preloader">
+        <!-- <div id="preloader" class="preloader">
             <div id="pre" class="preloader_container">
                 <div class="preloader_disabler btn btn-default">Disable Preloader</div>
             </div>
-        </div>
+        </div> -->
         <div class="header-top-two">
             <div class="container">
                 <!-- <div class="row">
@@ -73,8 +76,7 @@
                             <div class="navbar-header ulockd-ltwo">
                                 <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbar-menu"> <i class="fas fa-bars"></i> </button>
                                 <a class="navbar-brand ulockd-main-logo2" href="#brand">
-                                    <!-- <img src="assets/images/header-logo2.png" class="logo" alt=""> -->
-                                    <h2 style="color: #FFFFFF;">HayatCares Services</h2>
+                                    <h2 style="color: #FFFFFF;"><img src="assets/images/hayatlogo.jpeg" class="logo" alt="" width="40"> HayatCares Services</h2>
                                 </a>
                             </div>
                             <!-- End Header Navigation -->
@@ -554,7 +556,13 @@
                     <div class="col-lg-6 offset-lg-3">
                         <div class="ulockd-booking-form">
                             <h3><span class="flaticon-checkbox-pen-outline text-thm"></span> Apply For Job</h3>
-                            <br>
+                            <?php
+                                if (isset($_SESSION['notification'])) {
+                                    echo $_SESSION['notification'];
+                                }
+                            ?>
+                            <!-- <h3><span class="flaticon-checkbox-pen-outline text-thm"></span> Apply For Job</h3>
+                            <br> -->
                             <!-- Booking Form Sart-->
                             <form id="booking_form" class="ulockd-bf-area" name="booking_form" method="POST" action="process_form.php">
                                 <div class="row">
@@ -582,8 +590,8 @@
                                     <div class="col-sm-6">
                                         <div class="mb-4">
                                             <div class="ulockd-select-style">
-                                                <select id="depertment_post" class="form-control" name="depertment_post">
-                                                    <option value="select-option">Select An Option</option>
+                                                <select id="depertment_post" class="form-control" name="depertment_post" required="">
+                                                    <option selected disabled>Select An Option</option>
                                                     <option value="Dementia Care">Dementia Care</option>
                                                     <option value="Health Insurance Coverage">Health Insurance Coverage</option>
                                                     <option value="Long Term Care">Long Term Care</option>
@@ -922,6 +930,7 @@
                 <div class="row">
                     <div class="col-sm-6 col-lg-4">
                         <div class="footer-fst-col">
+                            <img src="assets/images/hayatlogo.jpeg" class="logo" alt="" width="60">
                             <h2 style="color: #FFFFFF;">HayatCares Services</h2>
                             <p class="ulockd-ftr-text">Regardless of whether you need to stay in your own house, are
                                 searching for help with a more established relative, looking for exhortation on paying
@@ -1023,5 +1032,8 @@
     <script src="assets/vendor/s-customizer/js/color-switcher.js"></script>
     <script src="assets/js/script.js"></script>
 </body>
+<?php
+session_destroy();
+?>
 
 </html>
