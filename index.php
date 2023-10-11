@@ -18,7 +18,7 @@ session_start();
     <!-- Responsive stylesheet -->
     <link rel="stylesheet" href="assets/css/responsive.css">
     <!-- Title -->
-    <title>HayatCares Services</title>
+    <title>Hayat Care Services Ltd</title>
     <!-- Favicon -->
     <link href="assets/images/favicon.ico" sizes="128x128" rel="shortcut icon" type="image/x-icon" />
     <link href="assets/images/favicon.ico" sizes="128x128" rel="shortcut icon" />
@@ -75,7 +75,7 @@ session_start();
                             <div class="navbar-header ulockd-ltwo">
                                 <button type="button" class="navbar-toggle" data-bs-toggle="collapse" data-bs-target="#navbar-menu"> <i class="fas fa-bars"></i> </button>
                                 <a class="navbar-brand ulockd-main-logo2" href="#brand">
-                                    <h2 style="color: #FFFFFF;"><img src="assets/images/hayatlogo.jpeg" class="logo" alt="" width="40"> HayatCares Services</h2>
+                                    <h2 style="color: #FFFFFF;"><img src="assets/images/hayatlogo.jpeg" class="logo" alt="" width="40"> HayatCare</h2>
                                 </a>
                             </div>
                             <!-- End Header Navigation -->
@@ -218,13 +218,13 @@ session_start();
                                 through your journey with us.</p>
                         </div>
                     </div>
-                    <div class="col-lg-6">
+                    <!-- <div class="col-lg-6">
                         <div class="ulockd-about-video">
                             <div class="ulockd-avdo-thumb">
-                                <iframe class="ulockd-frame2" src="assets/http://www.youtube.com/embed/6t79c4Zzngw?autoplay=0" allowfullscreen=""></iframe>
+                                <iframe class="ulockd-frame2" src="http://www.youtube.com/embed/6t79c4Zzngw?autoplay=0" allowfullscreen=""></iframe>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="row mt60">
                     <div class="col-sm-6 col-xl-4">
@@ -930,7 +930,7 @@ session_start();
                     <div class="col-sm-6 col-lg-4">
                         <div class="footer-fst-col">
                             <img src="assets/images/hayatlogo.jpeg" class="logo" alt="" width="60">
-                            <h2 style="color: #FFFFFF;">HayatCares Services</h2>
+                            <h2 style="color: #FFFFFF;">Hayat Care Services Ltd</h2>
                             <p class="ulockd-ftr-text">Regardless of whether you need to stay in your own house, are
                                 searching for help with a more established relative, looking for exhortation on paying
                                 for care, we can help you.</p>
@@ -997,7 +997,7 @@ session_start();
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <p>Copyright© HayatCares Services. <a class="color-white" href="https://hayatcareservices.co.uk" target="_blank">HayatCares</a> All right reserved.</p>
+                        <p>Copyright© Hayat Care Services Ltd. <a class="color-white" href="https://hayatcareservices.co.uk" target="_blank">HayatCares</a> All right reserved.</p>
                         <ul class="ulockd-footer-font-icon mt15">
                             <li class="list-inline-item"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                             <li class="list-inline-item"><a href="#"><i class="fas fa-rss"></i></a></li>
